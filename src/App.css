@@ -1,0 +1,153 @@
+.section__padding {
+    padding: 1rem 3rem;
+}
+
+.app__bg {
+    background-color: #0A0A0A;
+}
+
+.app__wrapper {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.app__wrapper_info {
+    flex: 1;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.app__wrapper_img {
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
+
+.app__wrapper_heading {
+    flex: 1;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    width: 100%;
+}
+
+
+.app__divider {
+    width: 100%;
+    height: 1px;
+
+    background-color: #484848;
+
+}
+
+.p__manrope {
+    font-family: var(--font-alt);
+    font-size: 18px;
+
+    color: var(--color-alt);
+}
+
+
+.h__manrope {
+    font-family: var(--font-alt);
+
+    color: var(--color-base);
+    font-size: 32px;
+    font-weight: 100;
+
+    line-height: 30px;
+}
+
+
+
+.a__link {
+    color: var(--color-link);
+    font-family: var(--font-alt);
+    font-size: 18px;
+
+    text-decoration: underline;
+
+}
+
+.headtext__BebasNeue {
+    font-family: var(--font-base);
+    font-size: 76px;
+
+    color: var(--color-base);
+}
+
+.second__heading {
+    font-family: var(--font-alt);
+    font-size: 32px;
+    font-weight: 300;
+
+    color: var(--color-base);
+}
+
+.custom__button {
+    border: none;
+    border-radius: 25px;
+    padding: 10px 15px;
+
+    background-color: var(--color-link);
+}
+
+
+@media screen and (min-width : 2000px) {
+    .p__manrope {
+        font-size: 25px;
+    }
+
+    .headtext__BebasNeue {
+        font-size: 84px;
+    }
+}
+
+@media screen and (max-width : 1400px) {
+    .p__manrope {
+        font-size: 18px;
+    }
+
+    .headtext__BebasNeue {
+        font-size: 76px;
+    }
+}
+
+@media screen and (max-width : 1150px) {
+    .app__wrapper {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+
+@media screen and (max-width : 850px) {
+    .p__manrope {
+        font-size: 16px;
+    }
+
+    .headtext__BebasNeue {
+        font-size: 43px;
+    }
+
+    .section__padding {
+        padding: 1rem 1.5rem;
+    }
+
+    .second__heading {
+        font-size: 24px;
+    }
+
+}

@@ -1,0 +1,11 @@
+.about__divider {
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+}
+
+@media screen and (max-width : 850px){
+    .about__divider {
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+}

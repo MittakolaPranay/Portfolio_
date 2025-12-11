@@ -1,0 +1,33 @@
+#work {
+    padding-top: 6rem;
+}
+
+.work__divider {
+    margin-bottom: 6rem;
+}
+
+
+.project__card {
+    display: flex;
+    flex-direction: column;
+
+    gap: 5rem;
+
+    margin-top: 4rem;
+}
+
+@media screen and (max-width : 1150px) {
+    #work {
+        padding-top: 4rem;
+    }
+
+    .work__divider {
+        margin-bottom: 4rem;
+    }
+}
+
+@media screen and (max-width : 8550px) {
+    .project__card {
+        gap: 3rem;
+    }
+}

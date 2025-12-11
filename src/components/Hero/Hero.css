@@ -1,0 +1,74 @@
+.app__wrapper_info_head {
+    font-family: "Bebas Neue";
+    font-size: 101px;
+    color: #fff;
+    line-height: 98px;
+    font-weight: 100;
+}
+
+.app__wrapper_img img {
+    width: 80%;
+}
+
+
+.app__hero_button {
+    display: flex;
+    gap: 0.5rem;
+
+    align-items: center;
+}
+
+
+
+
+
+.hero__button {
+    border: none;
+    border-radius: 25px;
+    padding: 6px 4px;
+    background-color: var(--color-link);
+    font-family: "manrope";
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+
+
+
+@media screen and (max-width : 1150px) {
+    .app__wrapper_info_head {
+        font-size: 76px;
+        line-height: 74px;
+    }
+
+    .app__info {
+        margin-top: 1.5rem;
+    }
+
+    .app__wrapper_img img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width : 850px) {
+    .app__wrapper_info_head {
+        font-size: 57px;
+        line-height: 55px;
+    }
+
+    .app__hero_button_image {
+        height: 48px;
+        width: 48px;
+    }
+
+    .hero__button {
+        padding: 3px 2px;
+        gap: 0.5rem;
+        font-size: 14px;
+    }
+
+}

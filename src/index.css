@@ -1,0 +1,22 @@
+:root {
+   --font-base: 'Bebas Neue';
+   --font-alt: 'Manrope';
+   --font-link : 'Inter';
+
+   --color-base: #ffffff;
+   --color-alt: #C7C7C7;
+   --color-button: #0A0A0A;
+   --color-link: #D3E97A;
+}
+
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   scroll-behavior: smooth;
+}
+
+a {
+   color: unset;
+   text-decoration: none;
+}

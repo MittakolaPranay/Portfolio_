@@ -1,0 +1,18 @@
+.page__about{
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+}
+
+.app__about_btn {
+    display: flex;
+    gap: 0.5rem;
+   
+    align-items: center;
+}
+
+@media screen and (max-width : 850px){
+    .page__about {
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+}

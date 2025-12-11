@@ -1,0 +1,17 @@
+.app__section {
+    font-family: var(--font-base);
+    font-size: 101px;
+    line-height: 99px;
+    font-weight: 100;
+
+    color: var(--color-base);
+
+
+}
+
+
+@media screen and (max-width : 850px) {
+    .app__section {
+        font-size: 63px;
+    }
+}

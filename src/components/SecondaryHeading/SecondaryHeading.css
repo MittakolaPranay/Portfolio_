@@ -1,0 +1,21 @@
+.app__section_heading{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.app__head {
+    font-family: "Bebas Neue";
+    font-size: 76px;
+    color: #fff;
+    line-height: 74px;
+    font-weight: 100;
+}
+
+@media screen and (max-width : 1150px){
+    .app__head {
+    
+    font-size: 43px;
+    line-height: 41px;
+}
+}

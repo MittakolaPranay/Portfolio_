@@ -1,0 +1,15 @@
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+#skills {
+    padding-top: 6rem;
+}
+
+@media screen and (max-width : 850px) {
+    #skills {
+    padding-top: 3rem;
+}
+}
