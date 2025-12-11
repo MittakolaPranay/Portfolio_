@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom";
 import "./ProjectCard.css"
-import TitleAndArrow from "../../assets/LiveDemo.png";
 import ViewProject from "../../assets/ViewProject.png";
 
 function ProjeectCard({title,info,year,role,image,technologies,gitPath}) {
@@ -34,7 +33,7 @@ function ProjeectCard({title,info,year,role,image,technologies,gitPath}) {
                 <div className="app__divider"></div>
 
                 <div className="project__link">
-                    <NavLink  to={gitPath}><img src={ViewProject}/></NavLink>
+                    <a href={gitPath}><img src={ViewProject}/></a>
                 </div>
             </div>
         </div>
