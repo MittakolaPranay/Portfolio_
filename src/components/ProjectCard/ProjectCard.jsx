@@ -3,7 +3,7 @@ import "./ProjectCard.css"
 import TitleAndArrow from "../../assets/LiveDemo.png";
 import ViewProject from "../../assets/ViewProject.png";
 
-function ProjeectCard({title,info,year,role,image,technologies}) {
+function ProjeectCard({title,info,year,role,image,technologies,gitPath}) {
     return <div className="app__wrapper ">
         <div className="app__wrapper_img project-card-image">
             <img src={image} alt="project image" />
@@ -34,8 +34,7 @@ function ProjeectCard({title,info,year,role,image,technologies}) {
                 <div className="app__divider"></div>
 
                 <div className="project__link">
-                    <NavLink   to={"#"}><img src={TitleAndArrow}/></NavLink>
-                    <NavLink  to={"#"}><img src={ViewProject}/></NavLink>
+                    <NavLink  to={gitPath}><img src={ViewProject}/></NavLink>
                 </div>
             </div>
         </div>
