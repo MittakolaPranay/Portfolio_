@@ -6,7 +6,7 @@ function Contact() {
         <div className="app__divider contact__divider"></div>
         <div className="app__wrapper">
             <div className="app__wrapper_heading">
-                <SecondaryHeading heading={"Let’s connect"} para={`Say hello at mittakolap@gmail.com. <br />For more info, here's my <a href = "https://pranay-77.netlify.app/public/MyResume.pdf" class = "a__link">Resume</a>`}/>
+                <SecondaryHeading heading={"Let’s connect"} para={`Say hello at mittakolap@gmail.com. <br />For more info, here's my <a href = "https://pranay-77.netlify.app/MyResume.pdf" target="_blank" rel="noopener noreferrer" class = "a__link">Resume</a>`}/>
             </div>
             <div className="app__wrapper_info">
                 <form action="" className="contact__form">
