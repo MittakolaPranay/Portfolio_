@@ -7,8 +7,7 @@ function Home() {
     <Hero />
     <Project />
     <About />
-    <Contact />
-    
+    <Contact /> 
     </>
 }
 

@@ -16,9 +16,9 @@ function AboutPage() {
                 <p className="p__manrope">I am a front-end developer. looking for exciting opportunities. Has Computer Engineering background. Likes to focus on accessibility when developing. Passionate and curious about solving problems. Currently, I’m exploring Reactjs, Java(Servlet, JDBC), Spring Framework. Learning more to improve skill.</p>
 
                 <div className="app__about_btn">
-                    <button className="custom__button"> CONTACT ME </button>
-                    <NavLink to={""}><img src={Frame3} /></NavLink>
-                    <NavLink to={""}><img src={Frame4} /></NavLink>
+                    <a href="#contact" className="custom__button"> CONTACT ME </a>
+                    <a href="https://www.linkedin.com/in/pranay-mittakola-26533a366/"><img className="app__hero_button_image" src={Frame3} alt="Linked In" /></a>
+                    <a href="https://github.com/MittakolaPranay"><img className="app__hero_button_image" src={Frame4} alt="Git Hub" /></a>
                 </div>
             </div>
         </div>

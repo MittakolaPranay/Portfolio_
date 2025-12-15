@@ -14,7 +14,7 @@ function About() {
                 <h2 className="second__heading">I am a front-end developer. Has Computer Engineering background. </h2>
                 <p className="p__manrope">I am a front-end developer. looking for exciting opportunities. Has Computer Engineering background. Likes to focus on accessibility when developing. Passionate and curious about solving problems. Currently, I’m exploring Reactjs, Java(Servlet, JDBC), Spring Framework. Learning more to improve skill.</p>
 
-                <NavLink style = {{marginTop : "2rem"}}to={"/about"}><img src={AboutMe} alt="More About Me"/></NavLink>
+                <a style = {{marginTop : "2rem"}}href={"/about"}><img src={AboutMe} alt="More About Me"/></a>
             </div>
         </div>
     </div>

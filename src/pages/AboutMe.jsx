@@ -1,8 +1,8 @@
-import {AboutPage, Navbar, ImageComponent, Skills, Contact} from "../components"
+import {AboutPage,  Skills, Contact, AboutNavbar} from "../components"
 
 function AboutME() {
     return <>
-    <Navbar />
+    <AboutNavbar />
     <AboutPage />
     <Skills />
     <Contact />
