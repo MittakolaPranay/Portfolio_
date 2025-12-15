@@ -12,7 +12,7 @@ function App() {
             element : <Home />
         },
         {
-            path : "/aboutme",
+            path : "/about",
             element : <AboutMe />
         }
     ])
