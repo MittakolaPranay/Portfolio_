@@ -16,8 +16,9 @@ function Skills() {
                     <Skill skill={"CSS"}/>
                     <Skill skill={"JAVASCRIPT"}/>
                     <Skill skill={"REACT"}/>
-                    <Skill skill={"JAVA"}/>
-                    <Skill skill={"SPRING FRAMEWORK"}/>
+                    <Skill skill={"React Hooks"}/>
+                    <Skill skill={"Context API"}/>
+                    <Skill skill={"React Router"}/>
                 </div>
             </div>
         </div>
