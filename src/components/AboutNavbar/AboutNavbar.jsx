@@ -1,13 +1,9 @@
 
 import "./AboutNavbar.css"
-import menu from "../../assets/menu.png"
-import clear from "../../assets/clear.png"
-import { useState } from "react";
+
 
 function AboutNavbar() {
 
-
-    let [toggleMenu, setToggleMenu] = useState(false);
 
     return <nav className="app__navbar app__bg">
         

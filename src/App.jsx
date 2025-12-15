@@ -12,9 +12,9 @@ function App() {
             element : <Home />
         },
         {
-            path : "/about",
+            path : "/aboutme",
             element : <AboutMe />
-        },
+        }
     ])
     return <RouterProvider router={route}/>
 }
