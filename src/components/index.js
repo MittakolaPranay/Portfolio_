@@ -7,7 +7,7 @@ import Contact from "./Contact/Contact";
 import AboutPage from "./AboutPage/AboutPage";
 import ImageComponent from "./ImageComponent/ImageComponent";
 import Skills from "./Skills/Skills";
-import AboutNavbar from "./AboutNavBar/AboutNavBar";
+import AboutNavbar from "./AboutNavBar/AboutNavbar.jsx";
 
 export {
     Navbar,
