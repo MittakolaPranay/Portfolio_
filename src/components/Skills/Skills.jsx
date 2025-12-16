@@ -5,6 +5,7 @@ import "./Skills.css"
 
 function Skills() {
     return <div className="section__padding app__bg" id="skills">
+        <div className="app__divider skills__divider"></div>
         <div className="app__wrapper">
             <div className="app__wrapper_heading">
                 <SectionHeading title={"my capabilities"}/>
